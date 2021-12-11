@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="Sign_upSty.css">
+</head>
+<body>
+
+    <div class="main-container">
+
+        <div class="sign-in-block">
+            <span class="pizzaHouse"><img style="width: 150px;
+                " src="./img/—Pngtree—pizza house shiitake tomato pizza_5570286.png" alt=""></span>
+            
+            <div class="userName">
+                    <img style="width: 30px; float: left; margin-top:4px; margin-left:15px;" src="https://img.icons8.com/ios/50/000000/name--v1.png"/>
+                <input type="text" placeholder="username">
+            </div>
+            <div class="userName">
+                <img style="width: 30px; float: left; margin-top:4px; margin-left:15px;" src="https://img.icons8.com/material-outlined/48/000000/password.png"/>
+                <input type="text" placeholder="password">
+            </div>
+
+
+            
+            <div class="remeberMe" style="margin-bottom: 10px;">
+                <input class="checkbox" type="checkbox" name="remberMe">
+                <span><label for="remeberMe">Remember me</label></span>
+                <div class="forgetPass">
+                    <span><a href="#">Forgot password?</a></span>
+                </div>
+            </div>
+
+            <button class="btn" onclick="onClick()">Sign in</button>
+
+            <span style="display: block; margin-top: 10px;">OR</span>
+
+            <div class="sign-in-icons">
+                <span><img src="https://img.icons8.com/color/48/000000/google-logo.png"/></span>
+                <span><img src="https://img.icons8.com/fluency/50/000000/facebook-new.png"/></span>
+            </div>
+
+            <input class="check-box" type="checkbox" name="" id="">
+            <p class="check-box">
+                By creating this account, you agree to our Privacy Policy & Cookie Policy.</p>
+            </p>
+        </div>
+        <div class="sign-up-bottom-lines">
+            <p>© 2021 Pizza House India. All rights reserved.</p>
+                <p> Website designed by Kunal_Patil </p>
+            <p> License Number: 10017011004220</p>
+        </div>
+
+    </div>
+    
+
+
+    <script>
+        var btn = Signin.getElemetsByClassName("btn");
+
+        function onClick(){
+           alert("Sign in Successfully");
+           location.reload();
+       }
+       
+    </script>
+</body>
+</html>
